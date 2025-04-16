@@ -1,4 +1,4 @@
-const API_KEY = 'your-chatgpt-api-key'; // Replace with your actual API key
+const API_KEY = ''; // Replace with your actual API key
 
 async function generateQuestions(category, count, difficulty) {
     const prompt = `Generate ${count} ${difficulty} difficulty multiple-choice quiz questions about ${category}. 

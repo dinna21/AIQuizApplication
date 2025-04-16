@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-header">
+            <h1 id="quiz-category">Quiz</h1>
+            <div class="quiz-progress">
+                Question <span id="current-question">1</span> of <span id="total-questions">5</span>
+            </div>
+        </div>
+        
+        <div class="quiz-container">
+            <div class="question" id="question-text">
+                Loading question...
+            </div>
+            
+            <div class="options" id="options-container">
+                <!-- Options will be inserted here by JavaScript -->
+            </div>
+            
+            <div class="navigation">
+                <button id="prev-btn" disabled>Previous</button>
+                <button id="next-btn">Next</button>
+                <button id="submit-btn" style="display: none;">Submit Quiz</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../secondPage/script-quiz.js"></script>
+</body>
+</html>
